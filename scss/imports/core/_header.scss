@@ -1,0 +1,21 @@
+.header{
+    padding-left: 44px;
+    padding-top: 44px;
+    display: flex;
+    z-index: 400;
+    position: fixed;
+    .menu{
+        display: flex;
+        li{
+            &:not(:last-child){
+                margin-right: 30px;
+            }
+            a{
+                @include text(11px,ah,30px,$black-cl,uppercase);
+            }
+        }
+    }
+    .btn{
+        margin-left: 20px;
+    }
+}// css header
